@@ -1,0 +1,26 @@
+{
+  "private": true,
+  "name": "pintura-example-nuxt-2",
+  "version": "0.0.0",
+  "author": "Rik Schennink at PQINA",
+  "license": "https://pqina.nl/pintura/license/",
+  "homepage": "https://pqina.nl/pintura/",
+  "description": "A Pintura Nuxt 2 example Project",
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@pqina/filepond-plugin-image-editor": "^9.0.0",
+    "@pqina/pintura": "8.x",
+    "@pqina/vue-pintura": "9.x",
+    "core-js": "^3.9.1",
+    "filepond": "4.x",
+    "filepond-plugin-file-poster": "^2.4.2",
+    "filepond-plugin-file-validate-type": "^1.2.6",
+    "nuxt": "^2.15.3",
+    "vue-filepond": "^6.0.3"
+  }
+}
